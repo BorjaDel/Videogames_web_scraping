@@ -75,6 +75,7 @@ for pagina in range(1, paginas):
     etiquetas_videojuegos = list(filter(lambda x: 'href' in x.attrs and x.attrs['href'].startswith('https://www.vgchartz.com/game/'),soup.find_all("a")))
     #print(etiquetas_videojuegos)
     for etiqueta in etiquetas_videojuegos:
+      # if int(etiqueta.parent.parent.find_all('td')[0].string) > (nº de petición): en caso de que surja algún error poder retomarlo desde el error.
       #Le damos seguimiento al proceso mostrando el número de peticiones realizadas.
       peticiones += 1
       print('Peticiones: {}'.format(peticiones))
