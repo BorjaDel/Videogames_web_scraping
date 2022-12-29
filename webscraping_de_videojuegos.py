@@ -31,11 +31,11 @@ from IPython.core.display import clear_output
 
 # Variables
 url1 = 'https://www.vgchartz.com/games/games.php?page='
-url2 = '&results=100&order=Sales&ownership=Both&direction=DESC&showtotalsales=1' # despues de results= se puede añadir el número que queramos para modificar el número de resultados por página.
+url2 = '&results=1000&order=Sales&ownership=Both&direction=DESC&showtotalsales=1' # despues de results= se puede añadir el número que queramos para modificar el número de resultados por página.
 url2 += '&shownasales=1&showpalsales=1&showjapansales=1&showothersales=1&showpublisher=1&showdeveloper=1'
 url2 += '&showreleasedate=1&showlastupdate=0&showvgchartzscore=0&showcriticscore=0&showuserscore=0&showshipped=0'
 
-paginas = 62 # 62 es el número de páginas de la tabla si se muestran 100 resultados por página.
+paginas = 62 # 62 es el número de páginas de la tabla si se muestran 1000 resultados por página.
 videojuego = []
 plataforma = []
 genero = []
