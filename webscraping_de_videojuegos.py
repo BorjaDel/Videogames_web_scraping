@@ -35,7 +35,7 @@ url2 = '&results=1000&order=Sales&ownership=Both&direction=DESC&showtotalsales=1
 url2 += '&shownasales=1&showpalsales=1&showjapansales=1&showothersales=1&showpublisher=1&showdeveloper=1'
 url2 += '&showreleasedate=1&showlastupdate=0&showvgchartzscore=0&showcriticscore=0&showuserscore=0&showshipped=0'
 
-paginas = 62 # 62 es el número de páginas de la tabla si se muestran 1000 resultados por página.
+paginas = 63 # 63 es el número de páginas de la tabla si se muestran 1000 resultados por página. En el momento de la realización del proyecto.
 videojuego = []
 plataforma = []
 genero = []
@@ -66,7 +66,7 @@ dict_csv = {
 """3. Implementamos el código para el scraping"""
 
 #Establecemos un for loop que va a recorrer el DOM de la página web y localizará los elementos <a> que tengan un enlace.
-for pagina in range(1, paginas):
+for pagina in range(1, paginas + 1):
     surl = url1 + str(pagina) + url2
     r = urllib.request.urlopen(surl).read()
     soup = BeautifulSoup(r)
