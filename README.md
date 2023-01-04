@@ -1,5 +1,5 @@
 # Webscraping de videojuegos
-Proyecto consistente en descargar la información de videojuegos de la página VGChartz y almacenar los datos en un archivo .csv
+<p>Proyecto consistente en descargar la información de videojuegos de la página VGChartz y almacenar los datos en un archivo .csv
 ---
 LinkedIn: [https://www.linkedin.com/in/borja-delgado-gonzalez/](https://www.linkedin.com/in/borja-delgado-gonzalez/)
 
