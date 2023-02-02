@@ -12,7 +12,7 @@ Original file is located at
 ### Proyecto consistente en descargar la información de videojuegos de la página VGChartz y almacenar los datos en un archivo .csv
 ---
 ##### El proyecto no pretende ser eficiente. Se trata de un proyecto para demostrar cómo obtener datos de una página web.
-###### A lo largo del código se han implementando algunos "prints" para que se pueda ver el elementos por separado.
+###### A lo largo del código se han implementando algunos "prints" para que se pueda ver el elemento por separado.
 
 1. Primero importamos las librerías necesarias
 """
