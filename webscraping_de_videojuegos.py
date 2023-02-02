@@ -146,4 +146,4 @@ for pagina in range(1, paginas + 1):
 
 df = pd.DataFrame(dict_csv)
 
-df.to_csv('ventas_videojuegos.csv')
+df.to_csv('ventas_videojuegos.csv', index = False)
